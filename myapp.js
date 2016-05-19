@@ -28,10 +28,10 @@ $( '#dropdown li' ).each(function( index,element) {
 
 
 var skycons_state = function(day,weather){
-  if(weather == 32 || weather == 36){
+  if(weather == 32 || weather == 36 || weather == 34){
     skycons.set(day, Skycons.CLEAR_DAY);
   }
-    if(weather == 31 || weather == 33 || weather == 34){
+    if(weather == 31 || weather == 33){
     skycons.set(day, Skycons.CLEAR_NIGHT);
   }
     if(weather == 30 || weather == 44){
