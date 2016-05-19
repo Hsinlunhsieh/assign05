@@ -37,10 +37,10 @@ var skycons_state = function(day,weather){
     if(weather == 30 || weather == 44){
     skycons.set(day, Skycons.PARTLY_CLOUDY_DAY);
   }
-    if(weather == 29){
+    if(weather == 29 || weather == 27){
     skycons.set(day, Skycons.PARTLY_CLOUDY_NIGHT);
   }
-    if(weather == 25 || weather == 26 || weather == 27){
+    if(weather == 25 || weather == 26){
     skycons.set(day, Skycons.CLOUDY);
   }
     if(weather ==3 || weather == 4 || weather == 8 || weather == 9 || weather == 10 || weather ==11 || weather ==12 || weather ==35 || weather ==37 || weather ==38 || weather ==39 || weather ==40 || weather ==45 || weather ==47){
